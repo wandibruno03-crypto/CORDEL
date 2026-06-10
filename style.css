@@ -9,7 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 html,
@@ -57,6 +57,10 @@ section {
 
 }
 
+section>p {
+    padding-bottom: 2em;
+}
+
 .normal {
     background-color: white;
     color: black;
@@ -65,12 +69,27 @@ section {
 .imagem {
     background-color: rgb(63, 61, 61);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
 }
 
 .imagem>p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.349);
+    text-shadow: 2px 2px 0px black;
+}
+
+#img01 {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+
+#img02 {
+    background-image: url('./imagens/background002.jpg');
+    background-size: cover;
 }
 
 footer {
